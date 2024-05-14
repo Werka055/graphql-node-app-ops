@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = 'nodejs-app'
+        DOCKER_IMAGE = 'graphql-node-app'
     }
     stages {
         stage('Checkout') {
@@ -25,4 +25,3 @@ pipeline {
             }
         }
     }
-}
