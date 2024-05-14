@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/Werka055/graphql-node-app-ops.git', branch: 'main'
+                git url: 'https://github.com/Werka055/graphql-node-app.git', branch: 'main'
             }
         }
 
